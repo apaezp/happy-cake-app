@@ -1,0 +1,71 @@
+.contact-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100vw;    
+    
+}
+
+.contact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100vw;
+    background-image: url("./assets/macaroons.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.contact h1 {
+    font-size: 4rem;
+    font-weight: 700;
+    color: white;
+    text-shadow: 2px 2px 2px black;
+    margin-bottom: 1rem;
+}
+
+.email-written {
+    width: 50%;
+    height: 2rem;
+    margin: 1rem;
+    border-radius: 5px;
+    border: none;
+    padding: 0.5rem;
+}
+
+.email-context {
+    width: 50%;
+    height: 2rem;
+    margin: 1rem;
+    border-radius: 5px;
+    border: none;
+    padding: 0.5rem;
+}
+
+.written-message {
+    width: 50%;
+    height: 10rem;
+    margin: 1rem;
+    border-radius: 5px;
+    border: none;
+    padding: 0.5rem;
+}
+
+.btn-contact {
+    width: 50%;
+    height: 2rem;
+    margin: 1rem;
+    border-radius: 5px;
+    border: none;
+    padding: 0.5rem;
+    background-color: #4f165a;
+    color: white;
+    font-weight: 700;
+    font-size: 1rem;
+    cursor: pointer;
+}
